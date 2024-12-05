@@ -2,8 +2,12 @@
 
 data
 config.yaml
-classes/*
-!classes/__init__.py
+property/*
+!property/__init__.py
+simpleType/*
+!simpleType/__init__.py
+definition/*
+!definition/__init__.py
 input/*
 
 
