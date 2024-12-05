@@ -1,2 +1,2 @@
-input_path: 'input'
-
+input_path: 'data'
+output_path : 'classes'
