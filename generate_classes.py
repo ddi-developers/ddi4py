@@ -2,7 +2,6 @@ import json
 import yaml
 
 
-
 ##
 # VBE
 ##
@@ -21,3 +20,15 @@ ddi_property = ddi_json['properties']['studyUnit']
 for k,v in ddi_property['patternProperties'].items():
    print(k+" | "+str(v))
    print(json.dumps(v['properties'], indent=4))
+  
+### write files
+for property_name, property_attr in ddi_json["properties"].items():
+    code_class_str = f"""
+class {property_name}:
+    
+    def __init__(self):
+        self = self
+    """
+    class_file = open(f"classes/{property_name}.py", "w+")
+    class_file.write(code_class_str)
+    class_file.close()
