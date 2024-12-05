@@ -1,3 +1,5 @@
 input_path: 'data'
-output_path : 'classes'
-ddi_
+properties_path : 'property'
+definitions_path : 'definition'
+simple_type_path : 'simpleType'
+ddi4_cogs_json : 'jsonSchema.json'
