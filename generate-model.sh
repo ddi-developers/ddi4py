@@ -1,1 +1,1 @@
-datamodel-codegen --input ./data/jsonSchema.json --output ddi4-datamodel.py
+datamodel-codegen --input ./data/jsonSchema.json --output ddi4_datamodel.py
