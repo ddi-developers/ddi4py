@@ -1,1 +1,5 @@
-import ddi4-datamodel
+
+from pydantic import RootModel, validator 
+import ddi4Datamodel
+
+

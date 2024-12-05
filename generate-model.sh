@@ -1,1 +1,1 @@
-datamodel-codegen --input ./data/jsonSchema.json --output ddi4_datamodel.py
+datamodel-codegen  --output-model-type pydantic_v2.BaseModel --input ./data/jsonSchema.json --output ddi4Datamodel.py 
