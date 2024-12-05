@@ -2,6 +2,9 @@
 
 data
 config.yaml
+classes/*
+!classes/__init__.py
+input/*
 
 
 # Byte-compiled / optimized / DLL files
