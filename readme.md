@@ -8,6 +8,9 @@ Goal : build Python classes for DDI4 with `cogs` input.
 - Get the latest release
 - pick ddi-lifecycle_alloutputs_...zip
 - extract `/json/jsonScheme.json` from the zip
+
+-  Create a `data` folder on repo root
+-  Copy `jsonScheme.json` to `data/jsonScheme.json` 
 ### Create config file
 - Copy the `config.yaml.template` to `config.yaml`
 - Change the path and name of the jsonScheme.json file if needed.
