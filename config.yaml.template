@@ -1,5 +1,2 @@
 input_path: 'data'
-properties_path : 'property'
-definitions_path : 'definition'
-simple_type_path : 'simpleType'
 ddi4_cogs_json : 'jsonSchema.json'
