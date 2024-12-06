@@ -24,6 +24,7 @@ Output : **ddi4Datamodel.py**
 
 ### Create a DDI
 `ddi4-fromscratch.py` is a small studyUnit example.
+`pydantic_test.py` is a test that instantiates a Python DDI 4 data model class from a JSON serialisation of DDI 4 data.
 
 ## Known issues
 
