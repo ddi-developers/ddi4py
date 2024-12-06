@@ -26,7 +26,7 @@ Output : **ddi4Datamodel.py**
 
 - `utc-millisec` from Duration in jsonScheme is not recognized and converted to a float
 - Basic inherited types (like strings) are not generated properly in jsonScheme. An issue has been submitted : https://github.com/ddialliance/ddimodel/issues/56
--  
+-  There is a problem in generated python classes in `ddi4Datamodel.py`. A `Type` property must be added manually. You can find the `ddi4DatamodelFixed.py` in the repo. TODO : generate classes and add the Type property afterwards
 
 ## Contributors
 - Thibaud Ritzenthaler
