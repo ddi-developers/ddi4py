@@ -1,4 +1,4 @@
-# EDDI24  Hackathon Prroject
+# EDDI24  Hackathon Project
 
 Build Python classes for DDI4 with `cogs` input.
 
