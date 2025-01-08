@@ -8,14 +8,14 @@ import pprint
 try:
     sofware_object = SoftwareType(
         softwareName = [NameType(
-           # String = "Hello",
+            #String = "Hello",
             context = "Test")
 
         ]
     )
 
     study_unit_object = StudyUnit(
-        URN = "0.0.1",
+        URN = "urn:ddi:us.mpc:V321:2",
         Agency = "INSERM",
         ID = 'xzze09121245555',
         Version = '0.1',
